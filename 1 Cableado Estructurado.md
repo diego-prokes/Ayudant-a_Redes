@@ -109,7 +109,7 @@ Artículo principal: *[Cable de par trenzado](https://es.wikipedia.org/wiki/Cabl
 
 ## Imagen de ejemplo
 
-  <img src="./1 Cableado Estructurado.png" style="zoom: 50%;" />
+  <img src="./1 assets/1 Cableado Estructurado.png" style="zoom: 50%;" />
 
 ## Bibliogrfía
 
