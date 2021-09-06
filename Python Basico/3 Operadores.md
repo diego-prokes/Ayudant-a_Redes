@@ -77,6 +77,50 @@ x %= 9    # x = 1.0
 print(x)
 ```
 
+## Operadores de Comparación
+
+En tus programas habrán veces en las que quieras comparar dos cantidades para conocer la relación que comparten. Para esto existen los operadores de comparación. Este tipo de operadores te devolverán un dato booleano que puede ser True o False.
+
+| Operador | Descripción                                                  |
+| -------- | ------------------------------------------------------------ |
+| >        | Mayor que. `True` si el operando de la izquierda es estrictamente mayor que el de la derecha; `False` en caso contrario. |
+| >=       | Mayor o igual que. `True` si el operando de la izquierda es mayor o igual que el de la derecha; `False` en caso contrario. |
+| <        | Menor que. `True` si el operando de la izquierda es estrictamente menor que el de la derecha; `False` en caso contrario. |
+| <=       | Menor o igual que. `True` si el operando de la izquierda es menor o igual que el de la derecha; `False` en caso contrario. |
+| ==       | Igual. `True` si el operando de la izquierda es igual que el de la derecha; `False` en caso contrario. |
+| !=       | Distinto. `True` si los operandos son distintos; `False` en caso contrario. |
+
+```python
+# Entre Números
+print("Entre Números")
+print(10 > 5)   # True
+print(10 < 5)   # False
+print(10 >= 10) # True
+print(5 == 5)   # True
+print(8 != 8)   # False
+print("\n")
+
+# Entre caracteres
+print("Entre Caracteres")
+print('a' == 'a') # True
+print('a' < 'b')  # True
+print("\n")
+
+# Entre strings]
+print("Entre Strings")
+# Dos strings son iguales si y sólo si tienen los mismos carácteres en el mismo orden
+print("hola" == "hola") # True
+print("ab" == "ba")     # False
+# Los strings se ordenan en orden alfabético (en verdad es en el orden de la tabla ascii)
+print("ab" > "ba")      # False
+print("ab" < "ba")      # True
+print("\n")
+
+# No se pueden comparar datos de distinto tipo mediante estos operadores
+print(8 > '8')  # Error
+print('Esta línea no se imprime porque hubo un error antes')
+```
+
 ## Otros Operadores
 
 Existen más operadores, pero considero que son más avanzados y serán vistos más adelantes. Sin embargo, puedes encontrarlos en la bibliografía al final del archivo.
@@ -87,5 +131,9 @@ Existen más operadores, pero considero que son más avanzados y serán vistos m
 
 [Qué son los operadores y los tipos que existen](https://yosoy.dev/que-son-los-operadores-y-los-tipos-que-existen/)
 
+[Operadores en Python: Aritméticos, comparación, lógicos, asignación, etc](https://j2logo.com/python/tutorial/operadores-en-python/#operadores-comparacion)
+
 [Precedencia de operadores](https://interactivechaos.com/es/manual/tutorial-de-python/precedencia-de-operadores)
+
+
 
