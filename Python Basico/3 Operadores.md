@@ -121,6 +121,15 @@ print(8 > '8')  # Error
 print('Esta línea no se imprime porque hubo un error antes')
 ```
 
+## Operadores Lógicos
+
+Los operadores lógicos utilizan operandos booleanos. Dependiendo del estado, True o False, de ambos, determinan el resultado de la salida. La salida también es del tipo de dato booleano.
+
+| Operador | Ejemplo                                                      |
+| -------- | ------------------------------------------------------------ |
+| **and**  | **True and True = True**<br/>**True and False = False**<br/>**False and True = False**<br/>**False and False = False** |
+| **or**   | **True or True = True**<br/>**True or False = True**<br/>**False or True = True**<br/>**False or False = False** |
+
 ## Otros Operadores
 
 Existen más operadores, pero considero que son más avanzados y serán vistos más adelantes. Sin embargo, puedes encontrarlos en la bibliografía al final del archivo.
