@@ -93,7 +93,7 @@ decimal = 10.0
 un_caracter = '$'
 otro_caracter = '10'
 otro_caracter_2 = 'a'
-otro_caracter_3 = chr(125)
+otro_caracter_3 = chr(125) # ASCII
 cadena_texto = "Hola Mundo!"
 
 booleano = True

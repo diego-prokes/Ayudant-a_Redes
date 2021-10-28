@@ -4,7 +4,7 @@
 
 ## Introducción
 
-La librería estándar de Python, incluída en cualquier instalación de Python, cuenta con varias funciones integradas que pueden facilitar mucho le realización de ciertas acciones. Siempre que existe una función integrada será preferible a hacerla por tu cuenta.
+La librería estándar de Python, incluida en cualquier instalación de Python, cuenta con varias funciones integradas que pueden facilitar mucho le realización de ciertas acciones. Siempre que existe una función integrada será preferible a hacerla por tu cuenta.
 
 ## Funciones de parámetros numéricos
 
